@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+    - name: ls
+    - run: ls -al
     - uses: actions/checkout@v1
     - name: configure
       run: ./configure
